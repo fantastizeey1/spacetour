@@ -57,7 +57,7 @@ const Destination = () => {
     style={{ backgroundImage: `url('${backgroundImage}')` }} >
 
       
-      <div className='flex flex-col justify-center items-center font-barlow text-white md:items-start lg:mt-10 lg:mx-auto '>
+      <div className='flex flex-col justify-center items-center mt-4 font-barlow text-white md:items-start lg:mt-10 lg:mx-auto '>
         <h1 className='p-4 md:my-10 md:mx-5 lg:mb-[50px] lg:text-[28px] font-condensed lg:mt-12'>PICK YOUR DESTINATION</h1>
         <div className='flex flex-col justify-center items-center lg:flex-row lg:gap-[140px] lg:items-start lg:justify-around'>
         <div className='lg:w-[445px]'>

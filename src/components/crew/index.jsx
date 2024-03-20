@@ -53,7 +53,7 @@ const Crew = () => {
   return (
     <div className='h-screen flex-wrap flex flex-col items-center justify-center w-full bg-cover lg:justify-start lg:items-start overflow-hidden'
     style={{ backgroundImage: `url('${backgroundImage}')` }}>
-      <div className='flex flex-col justify-start  items-center text-white text-center p-5 md:items-start md:-mt-80 lg:mt-10 lg:mx-auto lg:items-start lg:justify-start lg:ml-20 '>
+      <div className='flex flex-col justify-start  items-center -mt-10 text-white text-center p-5 md:items-start md:-mt-80 lg:mt-10 lg:mx-auto lg:items-start lg:justify-start lg:ml-20 '>
       <h1 className='p-4 mt-10 md:text-[20px] font-condensed md:mb-8'>MEET YOUR CREW</h1>
       <div className='flex flex-col-reverse justify-center items-center md:flex-col lg:flex-row lg:gap-[30px] lg:items-start lg:justify-around'>
         <div className='flex flex-col-reverse justify-center items-center md:flex-col lg:justify-start lg:w-[50%] lg:items-start' 

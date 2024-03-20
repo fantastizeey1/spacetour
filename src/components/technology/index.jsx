@@ -68,13 +68,13 @@ const Technology = () => {
                 <h1 className='uppercase font-bellefair mb-4 text-[30px] items-center md:text-[40px] lg:text-start lg:my-0 lg:text-[50px]'>{data.technology[technologyNumber].name}</h1>
                 <p className='text-[15px] font-barlow items-center text-center px-8 md:px-36 md: md:text-[16px] lg:text-start text-[#929399] lg:p-0 lg:my-10 lg:mt-3 lg:text-[18px]'>{data.technology[technologyNumber].description}</p>
               </div>
-              <div className='flex flex-row lg:flex-col items-center justify-center mt-20 lg:items-start lg:m-0 lg:'>
+              <div className='flex flex-row lg:flex-col items-center justify-center mt-10  lg:items-start lg:m-0 lg:'>
                 <div onClick={() => handleTechnologyChange(0)} className={`technology-tab w-[58px] h-[58px] p-5  bg-transparent rounded-full border-2 border-[#707070] hover:border-white cursor-pointer mr-3 lg:ml-0 lg:mb-14 ${technologyNumber === 0 ? 'active' : ''}`}>1</div>
                 <div onClick={() => handleTechnologyChange(1)} className={`technology-tab w-[58px] h-[58px] p-5 bg-transparent rounded-full mx-8 border-2 border-[#707070] hover:border-white cursor-pointer mr-3 lg:ml-0 lg:mb-14 ${technologyNumber === 1 ? 'active' : ''}`}>2</div>
                 <div onClick={() => handleTechnologyChange(2)} className={`technology-tab w-[58px] h-[58px] p-5 text-center bg-transparent mx-8 rounded-full border-2 border-[#707070] hover:border-white cursor-pointer mr-3 lg:ml-0 lg:mb-8 ${technologyNumber === 2 ? 'active' : ''}`}>3</div>
               </div>
             </div>
-            <div className='lg:w-[40%] border-b-[1px] border-[#707070] w-[102%] flex items-center justify-center md:border-none mx-2 md:ml-3 md:mt-0 lg:-mt-24 lg:mx-0 lg:border-b-[1px] lg:border-[#707070] lg:-mr-16 lg:h-[400px] lg:'>
+            <div className='lg:w-[40%] -mt-6 border-b-[1px] border-[#707070] w-[102%] flex items-center justify-center md:border-none mx-2 md:ml-3 md:mt-0 lg:-mt-24 lg:mx-0 lg:border-b-[1px] lg:border-[#707070] lg:-mr-16 lg:h-[400px] lg:'>
               <img src={technologyImages[technologyNumber][backgroundImage === desktopImage ? 'desktop' : 'tablet']} alt="" className='w-[101%] md:w-[101%] lg:w-full lg:h-[100%]  ' />
             </div>
           </div>

@@ -41,7 +41,7 @@ function Main() {
       className='h-screen flex flex-col items-center justify-center w-full bg-cover lg:justify-start lg:items-start'
       style={{ backgroundImage: `url('${backgroundImage}')` }}
     >
-      <div className='absolute top-[10%] text-white px-4 h-screen mr-2 flex flex-col justify-center items-center  md:w-[70%]  md:h-[50%] md:p-15 md:top-[25%] lg:w-[40%] lg:left-20 lg:top-[35%] lg:justify-start lg:items-start '>
+      <div className='absolute top-[10%] text-white px-4 h-screen mr-2 flex -mt-10 flex-col justify-center items-center  md:w-[70%]  md:h-[50%] md:p-15 md:top-[25%] lg:w-[40%] lg:left-20 lg:top-[35%] lg:justify-start lg:items-start '>
         <h2 className='text-[18px] text-[#d0d6f9] font-custom -mt-60  leading-loose tracking-wider mb-0 md:-mt-20 lg:-mt-0 lg:mb-0 font-barlow lg:text-[28px] '>SO, YOU WANT TO TRAVEL TO </h2>
         <h1 className='text-[80px]  m-7 md: lg:m-0 lg:text-[120px]  tracking-widest font-bellefair '>SPACE</h1>
         <p className='text-[16px] text-[#D0D6F9] font-custom tracking-widest text-center lg:text-start lg:text-[18px] '>
@@ -51,7 +51,7 @@ function Main() {
         </p>
       </div>
 
-      <div className="w-36 h-36 bg-white rounded-full flex items-center justify-center text-gray-900 font-bold text-3xl absolute top-[70%]  transition-transform duration-200 ease-in-out md:top-[70%] md:w-60 md:h-60 lg:top-[50%] lg:h-90 lg:w-90 font-bellefair lg:text-5xl lg:left-[70%] cursor-pointer">
+      <div className="w-36 h-36 bg-white rounded-full flex items-center justify-center mt-10 text-gray-900 font-bold text-3xl absolute top-[70%]  transition-transform duration-200 ease-in-out md:top-[70%] md:w-60 md:h-60 lg:top-[50%] lg:h-90 lg:w-90 font-bellefair lg:text-5xl lg:left-[70%] cursor-pointer">
         <div className="absolute w-full h-full bg-white bg-opacity-20 hover:scale-150 rounded-full"></div>
         <Link to="/Destination" className="w-full h-full flex items-center justify-center">
           EXPLORE
