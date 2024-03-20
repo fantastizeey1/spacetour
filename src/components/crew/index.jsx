@@ -6,6 +6,7 @@ import Douglas from '/src/assets/crew/image-douglas-hurley.png'
 import Mark from '/src/assets/crew/image-mark-shuttleworth.png'
 import Victor from '/src/assets/crew/image-victor-glover.png'
 import Anousheh from '/src/assets/crew/image-anousheh-ansari.png'
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import data from '../../../data';
 import '/src/index.css';
 
@@ -74,8 +75,12 @@ const Crew = () => {
         </div>
        
         <div className='lg:w-[40%] border-b-[1px] border-[#707070] w-[80%] flex items-center justify-center md:border-none mx-2 md:-mb-96 md:mt-14 lg:-mt-16 lg:mx-0 lg:border-b-[1px] lg:border-[#707070]' >
+          <IoIosArrowBack onClick={() => handleCrewChange((crewNumber - 1 + data.crew.length) % data.crew.length)} size={25} className='cursor-pointer absolute top-[35%] left-[10%] md:top-[80%] md:left-[3%] lg:top-[50%] lg:left-[60%]' />
         <img src={crewImages[crewNumber]}   alt="" className='w-[170px] md:w-[450px] lg:w-[70%] lg:h-[90%]  ' 
         />
+        <IoIosArrowForward onClick={() => handleCrewChange((crewNumber + 1) % data.crew.length)} size={25} className='cursor-pointer absolute top-[35%] right-[10%] 
+        md:top-[80%] md:right-[3%]
+        lg:top-[50%] lg:right-[3%]' />
         </div>
       </div>
       </div>

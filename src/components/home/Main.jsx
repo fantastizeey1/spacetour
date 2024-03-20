@@ -52,10 +52,11 @@ function Main() {
       </div>
 
       <div className="w-48 h-48 bg-white rounded-full flex items-center justify-center mt-12 text-gray-900 font-bold text-3xl absolute top-[70%]  transition-transform duration-200 ease-in-out md:top-[70%] md:w-60 md:h-60 lg:top-[45%] lg:h-90 lg:w-90 font-bellefair lg:text-5xl lg:left-[70%] cursor-pointer">
-        <div className="absolute w-full h-full bg-white bg-opacity-20 hover:scale-150 rounded-full"></div>
+        
         <Link to="/Destination" className="w-full h-full flex items-center justify-center">
           EXPLORE
         </Link>
+        <div className="absolute w-full  h-full bg-white bg-opacity-20 -z-[1] hover:scale-150 rounded-full"></div>
       </div>
     </div>
   );
