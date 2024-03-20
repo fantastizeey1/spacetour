@@ -58,7 +58,7 @@ const Technology = () => {
       className='h-screen flex flex-col items-center justify-center w-full bg-cover lg:justify-start lg:items-start'
       style={{ backgroundImage: `url('${backgroundImage}')` }}
     >
-      <div className='h-screen flex-wrap flex flex-col items-center justify-center w-full bg-cover lg:justify-start lg:items-start overflow-hidden' style={{ backgroundImage: `url('${backgroundImage}')` }}>
+      <div className='h-screen flex-wrap flex mt-10 flex-col items-center justify-center w-full bg-cover lg:justify-start lg:items-start overflow-hidden' style={{ backgroundImage: `url('${backgroundImage}')` }}>
         <div className='flex flex-col justify-start items-center text-white text-center md:items-start md:-mt-80 lg:mt-10 lg:mx-auto lg:items-start lg:justify-start lg:ml-48  '>
           <h1 className='p-4 font-condensed -mt-32 md:mt-80 mb-10 md:text-[20px] md:mb-18 lg:text-[28px] lg:mt-28 text-[#929399] '>SPACE LAUNCH 101</h1>
           <div className='flex flex-col-reverse justify-center items-center md:flex-col-reverse lg:flex-row lg:gap-[10px] lg:items-start lg:justify-between'>

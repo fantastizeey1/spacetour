@@ -84,7 +84,7 @@ const Destination = () => {
         </div>
 
             <h1 className='uppercase text-[56px] items-center lg:text-[100px] font-bellefair'>{data.destinations[planetNumber].name}</h1>
-            <p className='text-[15px] px-10 items-center text-center md:px-20 md:text-[16px] lg:text-start lg:p-0 lg:my-10 lg:mt-3 font-barlow lg:text-[18px] text-[#b4b4fa]'>{data.destinations[planetNumber].description}</p>
+            <p className='text-[15px] px-5 items-center text-center md:px-20 md:text-[16px] lg:text-start lg:p-0 lg:my-10 lg:mt-3 font-barlow lg:text-[18px] text-[#b4b4fa]'>{data.destinations[planetNumber].description}</p>
             <hr className='bg-[#070707] border-[#afaeae] w-full my-2 lg:m-0' />
            <div className='flex flex-col md:flex-row md:gap-16'>
            <div className='flex flex-col items-center my-1 lg:items-start'>
